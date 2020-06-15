@@ -11,5 +11,5 @@ schedules: 2020-04-22T16:00:00.0Z/P2W
 # start 2020-04-22 at 16:00, repeat every 7 days
 schedules: 2020-06-22T16:00:00.0Z/P7D
 ```
-5) In the [send agenda workflow](.github/workflows/send_agenda.yml), update `[COMMUNITY NAME]` and `[MAILING LIST]@lists.aswf.io`. 
+5) In the [send agenda workflow](.github/workflows/send_agenda.yml), update `[COMMUNITY NAME]` and `[MAILING LIST EMAIL]`. 
 6) Any items with the label `meeting` will be added to the agenda automatically when it is built the day prior to the meeting.
